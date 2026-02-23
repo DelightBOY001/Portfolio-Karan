@@ -480,9 +480,9 @@ function Hero() {
             className="flex gap-8 justify-center lg:justify-start mt-12"
           >
             {[
-              { value: '5+', label: 'Years Exp', icon: Briefcase },
-              { value: '50+', label: 'Projects', icon: Code2 },
-              { value: '30+', label: 'Clients', icon: Users },
+              { value: '3.2+', label: 'Years Exp', icon: Briefcase },
+              { value: '12+', label: 'Projects', icon: Code2 },
+              { value: '10+', label: 'Clients', icon: Users },
             ].map((stat, i) => (
               <motion.div
                 key={stat.label}
@@ -622,9 +622,9 @@ function Hero() {
                 transition={{ delay: 2.1 }}
               >
                 {[
-                  { value: '5+', label: 'Years Exp' },
-                  { value: '50+', label: 'Projects' },
-                  { value: '30+', label: 'Clients' },
+                  { value: '3.2+', label: 'Years Exp' },
+                  { value: '12+', label: 'Projects' },
+                  { value: '10+', label: 'Clients' },
                 ].map((stat, i) => (
                   <motion.div
                     key={stat.label}
